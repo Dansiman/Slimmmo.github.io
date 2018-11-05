@@ -213,11 +213,12 @@ advApp.controller('advController', ['$document', '$filter', '$scope', function($
     ['Haunted Mansion', 2, [4, 20]],
     ['Fi-doo 3000', 2, [0, 25]],
     ['Turdy', 2, [10, 25]],
-    ['Budget Light', 2, [16, 15]]
+    ['Budget Light', 2, [16, 15]],
+    ['Music', 3, [0, 1.55]] //55% speed boost, simpler to do it as a profit bonus for now instead of finding the right way to make it actually a speed boost
     //Future badges:
     //['', 2, [12, ]],
   ];
-  var planets = ['earth', 'moon', 'mars'];
+  var planets = ['earth', 'moon', 'mars', 'cashella']; //for testing, just adding current event
 
   angular.element(document).ready(function() {
     var fileInput = document.getElementById('fileInput');
